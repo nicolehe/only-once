@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "only once",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "history",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
